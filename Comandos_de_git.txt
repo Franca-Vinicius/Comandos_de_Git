@@ -1,0 +1,20 @@
+Lista de comandos Git:
+	
+	Verificar versão do Git				- 	git --version
+	Mudar diretório						-	cd <nome do diretorio>
+	Voltar um diretório					-	cd ..
+	Listar conteúdo						-	ls
+	Criar pasta 						-	mkdir <nome da pasta>
+	Excluir pasta						-	rmdir <nome da pasta>
+	Configurar nome						-	git config --global user.name "<nome de usuário>"
+	Configurar e-mail					-	git config --global user.email "<digite o e-mail>"
+	Comando para criar .txt				-	touch <nome do arquivo .txt>
+	Ler conteúdo do arquivo				-	cat <nome do arquivo>
+	Adicionar texto dentro do arquivo	-	echo "<texto>" >> <nome do arquivo>
+	Criar repositorio no github			-	git init	*dentro do diretório
+	Verificar situação dos arquivos		-	git status
+	Rastrear arquivos no diretório		-	git add .
+	Enviando arquivos para repositorio	-	git comit -m "<mensagem de descrição>"
+	
+	
+	*Ctrl + l 				-	limpar tela 
