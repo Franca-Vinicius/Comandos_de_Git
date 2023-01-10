@@ -1,23 +1,58 @@
 Lista de comandos Git:
 	
-	Verificar versão do Git					- 	git --version
-	Mudar diretório							-	cd <nome do diretorio>
-	Voltar um diretório						-	cd ..
-	Listar conteúdo							-	ls
-	Criar pasta 							-	mkdir <nome da pasta>
-	Excluir pasta							-	rmdir <nome da pasta>
-	Configurar nome							-	git config --global user.name "<nome de usuário>"
-	Configurar e-mail						-	git config --global user.email "<digite o e-mail>"
-	Comando para criar .txt					-	touch <nome do arquivo .txt>
-	Ler conteúdo do arquivo					-	cat <nome do arquivo>
-	Adicionar texto dentro do arquivo		-	echo "<texto>" >> <nome do arquivo>
-	Criar repositorio						-	git init	*dentro do diretório
-	Verificar situação dos arquivos			-	git status
-	Rastrear arquivos no diretório			-	git add .
-	Realizando commit de arquivos 			-	git commit -m "<mensagem de descrição>"
-	Verificar status de modificações		-	git log
-	Vinculando repositório Git com Github	-	git remote add oring <https do seu repositório no Github>	*deve ser criado um repositório no Github antes de realizar esse comando.
-	Enviando arquivos para o Github			-	git push oringin master
+	Verificar versão do Git					
+		- 	git --version
+		
+	Mudar diretório							
+		-	cd <nome do diretorio>
+		
+	Voltar um diretório						
+		-	cd ..
+		
+	Listar conteúdo							
+		-	ls
+		
+	Criar pasta 							
+		-	mkdir <nome da pasta>
+		
+	Excluir pasta							
+		-	rmdir <nome da pasta>
+		
+	Configurar nome							
+		-	git config --global user.name "<nome de usuário>"
+	
+	Configurar e-mail						
+	-	git config --global user.email "<digite o e-mail>"
+	
+	Comando para criar .txt					
+		-	touch <nome do arquivo .txt>
+	
+	Ler conteúdo do arquivo					
+		-	cat <nome do arquivo>
+		
+	Adicionar texto dentro do arquivo		
+		-	echo "<texto>" >> <nome do arquivo>
+		
+	Criar repositorio						
+		-	git init	*dentro do diretório
+		
+	Verificar situação dos arquivos			
+		-	git status
+		
+	Rastrear arquivos no diretório			
+		-	git add .
+		
+	Realizando commit de arquivos 			
+		-	git commit -m "<mensagem de descrição>"
+		
+	Verificar status de modificações		
+		-	git log
+		
+	Vinculando repositório Git com Github	
+		-	git remote add oring <https do seu repositório no Github>	*deve ser criado um repositório no Github antes de realizar esse comando.
+	
+	Enviando arquivos para o Github			
+		-	git push oringin master
 	
 	
 	*Ctrl + l 				-	limpar tela 
