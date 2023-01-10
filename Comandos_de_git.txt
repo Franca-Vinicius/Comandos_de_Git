@@ -55,4 +55,4 @@ Lista de comandos Git:
 		-	git push oringin master
 	
 	
-	*Ctrl + l 				-	limpar tela 
+	*Ctrl + l 	-	limpar tela 
