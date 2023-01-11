@@ -45,24 +45,34 @@ Lista de comandos Git:
 	Realizando commit de arquivos 			
 		-	git commit -m "<mensagem de descrição>"
 		
-	Verificar status de modificações		
+	Verificar log de ações no Git		
 		-	git log
 		
+	Verificar os ultimos logs de ações no Git
+		-	git log -n 3												#Pode ser utilizado qualquer valor para ver a quantidade de ultimos logs.
+		
 	Vinculando repositório Git com Github	
-		-	git remote add oring <https do seu repositório no Github>	#deve ser criado um repositório no Github antes de realizar esse comando.
+		-	git remote add oring <https do seu repositório no Github>	#Deve ser criado um repositório no Github antes de realizar esse comando.
 	
 	Enviando arquivos para o Github			
 		-	git push oringin master
 	
 	Baixar/Clonar um repositório para um diretório
-		-	git clone <https do seu repositorio no Github>			#deve ser copiado a URL do repositório no seu Github e colar na linha de comando.
+		-	git clone <https do seu repositorio no Github>			#Deve ser copiado a URL do repositório no seu Github e colar na linha de comando.
 		
 	Ignorar arquivos dentro de um diretório para depois enviar ao repositório	
-		-	touch .gitignore						#é um ambiente onde todos arquivos que conter dentro serão ignorados no push
+		-	touch .gitignore						#É um ambiente onde todos arquivos que conter dentro serão ignorados no push
 		-	echo "<nome do arquivo para ser ignorado>" >> .gitignore	#estamos encaminhando um arquivo para dentro do .gitignore
-				#o .gitignore será rastreado normalmente para ser incluido no repositório.
-				#o seu conteúdo será incluido junto do .gitignore ao realizar o push, 
-				#porém ao ler ".gitignore" no repositorio, entendemos que deve ser ignorado do projeto.
+				#O .gitignore será rastreado normalmente para ser incluido no repositório.
+				#O seu conteúdo será incluido junto do .gitignore ao realizar o push, 
+				#Porém ao ler ".gitignore" no repositorio, entendemos que aquele conteúdo deve ser ignorado do projeto.
+				
+	Encaminhar arquivos do mesmo tipo para .gitignore ou outra pasta/divisão
+		-	echo "*.<extensão do arquivo>" >> .gitignore	
+	
+	Rastrear e commitar ao mesmo tempo
+		-	git commit -am "<descrição>"
+		
 	
 	Atalhos:
 		Ctrl + L 	-	limpar tela 
