@@ -55,7 +55,7 @@ Lista de comandos Git:
 		-	git push oringin master
 	
 	Baixar/Clonar um repositório para um diretório
-		-	git clone <https do seu repositorio no Github>				*deve ser copiado a URL do repositório no seu Github e colar na linha de comando.
+		-	git clone <https do seu repositorio no Github>			*deve ser copiado a URL do repositório no seu Github e colar na linha de comando.
 		
 	
 	Atalhos:
