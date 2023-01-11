@@ -123,9 +123,14 @@ Lista de comandos Git:
 											#mescladas.
 		-	git merge <nome da branch> -m "<descrição>"			#Lembrando que realiza o merge dos arquivos e conteúdo de cada um deles
 		
-			
+
+	Legenda:
 		
-	Dicas
+		#	-	Utilizado para comentario
+		<>	-	inserir tesxto / conteúdo / titulo / descrição
+	
+		
+	Dicas:
 	
 		Para editar um código criado por outro usuário no Github, acesse o perfil do usuário, encontre o repositório e realize um Fork para seu perfil.
 		Feito isso, realize um clone para um diretório local para fazer as edições e modificações e então conseguirá realizar Push para seu repositório remoto.
@@ -133,6 +138,7 @@ Lista de comandos Git:
 		Para contribuir de fato com o codigo original, deve ser solicitado um Pull Request, basta clicar em "New Pull Request" (no seu repositório Fork), verá as
 		mudanças e edições realizadas em comparação ao codigo original, e então enviar o pull request, o dono do codigo original recebe uma notificação e deve
 		aprovar o pull
+	
 	
 	Atalhos:
 		Ctrl + L 	-	limpar tela 
