@@ -81,11 +81,11 @@ Lista de comandos Git:
 	
 	Desfazer alteração de conteúdo
 		-	git checkout -- <nome do arquivo>				#Lembrando que apenas mudanças que ainda não foram 
-															#rastreadas podem ser desfeitas dessa forma
+											#rastreadas podem ser desfeitas dessa forma
 		
 	Desfazer exclusão de arquivo
 		-	git checkout HEAD <nome do arquivo>				#Esse comando serve para desfazer a exclusão de um arquivo que ainda não foi 
-															#rastreado.
+											#rastreado.
 	
 	Desfazer/excluir rastreamento/staged
 		-	git reset --hard						#Irá limpar tudo que já tiver rastreado, e desfaz alteações feitas.
