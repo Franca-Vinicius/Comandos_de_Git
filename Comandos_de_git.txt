@@ -74,10 +74,10 @@ Lista de comandos Git:
 		-	git commit -am "<descrição>"
 		
 	Remover arquivo no diretório
-		-	git rm <nome do arquivo>		#Esse comando além de remover o arquivo indicado, já rastrea do diretório.
+		-	git rm <nome do arquivo>					#Esse comando além de remover o arquivo indicado, já rastrea do diretório.
 	
 	Renomeando nome do arquivo
-		-	git mv <nome do arquivo> <novo titulo do arquivo>	#Esse comando além de renomear o arquivo indicado, já rastrea do diretório.
+		-	git mv <nome do arquivo> <novo titulo do arquivo>		#Esse comando além de renomear o arquivo indicado, já rastrea do diretório.
 		
 	
 	Atalhos:
