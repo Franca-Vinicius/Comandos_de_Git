@@ -49,7 +49,7 @@ Lista de comandos Git:
 		-	git log
 		
 	Verificar os ultimos logs de ações no Git
-		-	git log -n 3												#Pode ser utilizado qualquer valor para ver a quantidade de ultimos logs.
+		-	git log -n 3							#Pode ser utilizado qualquer valor para ver a quantidade de ultimos logs.
 		
 	Vinculando repositório Git com Github	
 		-	git remote add oring <https do seu repositório no Github>	#Deve ser criado um repositório no Github antes de realizar esse comando.
