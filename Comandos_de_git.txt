@@ -108,7 +108,8 @@ Lista de comandos Git:
 		-	git checkout -b <nome da branch>
 	
 	Deletar uma branch
-		-	git branch -d <nome da branch>					#Caso esteja dentro da branch que deseja excluir, deve usar o comando git checkout <nome da branch> para trocar
+		-	git branch -d <nome da branch>					#Caso esteja dentro da branch que deseja excluir, deve usar o comando git checkout 
+											#<nome da branch> para trocar
 											#de branch e então excluir.
 	Deletar uma branch já commitada
 		-	git branch -D <nome da branch>
