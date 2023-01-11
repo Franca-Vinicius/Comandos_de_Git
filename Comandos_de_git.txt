@@ -39,7 +39,7 @@ Lista de comandos Git:
 	Verificar situação dos arquivos			
 		-	git status
 		
-	Rastrear arquivos no diretório			
+	Rastrear/stage arquivos no diretório			
 		-	git add .
 		
 	Realizando commit de arquivos 			
@@ -63,14 +63,14 @@ Lista de comandos Git:
 	Ignorar arquivos dentro de um diretório para depois enviar ao repositório	
 		-	touch .gitignore						#É um ambiente onde todos arquivos que conter dentro serão ignorados no push
 		-	echo "<nome do arquivo para ser ignorado>" >> .gitignore	#Estamos encaminhando um arquivo para dentro do .gitignore
-				#O .gitignore será rastreado normalmente para ser incluido no repositório.
+				#O .gitignore será rastreado/staged normalmente para ser incluido no repositório.
 				#O seu conteúdo será incluido junto do .gitignore ao realizar o push, 
 				#Porém ao ler ".gitignore" no repositorio, entendemos que aquele conteúdo deve ser ignorado do projeto.
 				
 	Encaminhar arquivos do mesmo tipo para .gitignore ou outra pasta/divisão
 		-	echo "*.<extensão do arquivo>" >> .gitignore	
 	
-	Rastrear e commitar ao mesmo tempo
+	Rastrear/stage e commitar ao mesmo tempo
 		-	git commit -am "<descrição>"
 		
 	Remover arquivo no diretório
@@ -85,10 +85,21 @@ Lista de comandos Git:
 	Desfazer exclusão de arquivo
 		-	git checkout HEAD <nome do arquivo>		#Esse comando serve para desfazer a exclusão de um arquivo que ainda não foi rastreado.
 	
-	Desfazer/excluir rastreamento
+	Desfazer/excluir rastreamento/staged
 		-	git reset --hard						#Irá limpar tudo que já tiver rastreado, e desfaz alteações feitas.
 		
+	Desfazer commit
+		-	git reset HEAD~1						#Irá desfazer ultimo commit realizado, voltando para area de rastreamento/staged
 		
+		
+		
+	Dicas
+	
+		Para editar um código criado por outro usuário no Github, acesse o perfil do usuário, encontre o repositório e realize um Fork para seu perfil.
+		Feito isso, realize um clone para um diretório local para fazer as edições e modificações e então conseguirá realizar Push para seu repositório remoto.
+		
+		Para contribuir de fato com o codigo original, deve ser solicitado um Pull Request, basta clicar em "New Pull Request" (no seu repositório Fork), verá as
+		mudanças e edições realizadas em comparação ao codigo original, e então enviar o pull request, o dono do codigo original recebe uma notificação e deve aprovar o pull
 	
 	Atalhos:
 		Ctrl + L 	-	limpar tela 
