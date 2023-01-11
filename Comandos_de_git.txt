@@ -54,5 +54,10 @@ Lista de comandos Git:
 	Enviando arquivos para o Github			
 		-	git push oringin master
 	
+	Baixar/Clonar um repositório para um diretório
+		-	git clone <https do seu repositorio no Github>				*deve ser copiado a URL do repositório no seu Github e colar na linha de comando.
+		
 	
-	*Ctrl + l 	-	limpar tela 
+	Atalhos:
+		Ctrl + L 	-	limpar tela 
+	
