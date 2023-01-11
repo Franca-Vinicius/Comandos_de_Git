@@ -83,7 +83,7 @@ Lista de comandos Git:
 		-	git checkout -- <nome do arquivo>		#Lembrando que apenas mudanças que ainda não foram rastreadas podem ser desfeitas dessa forma
 		
 	Desfazer exclusão de arquivo
-		-	git checkout HEAD <nome do arquivo>		#Esse comando serve para desfazer a exclusão de um arquivo que ainda não foi rastreado.
+		-	git checkout HEAD <nome do arquivo>				#Esse comando serve para desfazer a exclusão de um arquivo que ainda não foi rastreado.
 	
 	Desfazer/excluir rastreamento/staged
 		-	git reset --hard						#Irá limpar tudo que já tiver rastreado, e desfaz alteações feitas.
@@ -99,7 +99,8 @@ Lista de comandos Git:
 		Feito isso, realize um clone para um diretório local para fazer as edições e modificações e então conseguirá realizar Push para seu repositório remoto.
 		
 		Para contribuir de fato com o codigo original, deve ser solicitado um Pull Request, basta clicar em "New Pull Request" (no seu repositório Fork), verá as
-		mudanças e edições realizadas em comparação ao codigo original, e então enviar o pull request, o dono do codigo original recebe uma notificação e deve aprovar o pull
+		mudanças e edições realizadas em comparação ao codigo original, e então enviar o pull request, o dono do codigo original recebe uma notificação e deve
+		aprovar o pull
 	
 	Atalhos:
 		Ctrl + L 	-	limpar tela 
