@@ -77,7 +77,17 @@ Lista de comandos Git:
 		-	git rm <nome do arquivo>					#Esse comando além de remover o arquivo indicado, já rastrea do diretório.
 	
 	Renomeando nome do arquivo
-		-	git mv <nome do arquivo> <novo titulo do arquivo>		#Esse comando além de renomear o arquivo indicado, já rastrea do diretório.
+		-	git mv <nome do arquivo> <novo titulo do arquivo>		
+	
+	Desfazer alteração de conteúdo
+		-	git checkout -- <nome do arquivo>		#Lembrando que apenas mudanças que ainda não foram rastreadas podem ser desfeitas dessa forma
+		
+	Desfazer exclusão de arquivo
+		-	git checkout HEAD <nome do arquivo>		#Esse comando serve para desfazer a exclusão de um arquivo que ainda não foi rastreado.
+	
+	Desfazer/excluir rastreamento
+		-	git reset --hard						#Irá limpar tudo que já tiver rastreado, e desfaz alteações feitas.
+		
 		
 	
 	Atalhos:
