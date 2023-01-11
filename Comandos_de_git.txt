@@ -62,7 +62,7 @@ Lista de comandos Git:
 		
 	Ignorar arquivos dentro de um diretório para depois enviar ao repositório	
 		-	touch .gitignore						#É um ambiente onde todos arquivos que conter dentro serão ignorados no push
-		-	echo "<nome do arquivo para ser ignorado>" >> .gitignore	#estamos encaminhando um arquivo para dentro do .gitignore
+		-	echo "<nome do arquivo para ser ignorado>" >> .gitignore	#Estamos encaminhando um arquivo para dentro do .gitignore
 				#O .gitignore será rastreado normalmente para ser incluido no repositório.
 				#O seu conteúdo será incluido junto do .gitignore ao realizar o push, 
 				#Porém ao ler ".gitignore" no repositorio, entendemos que aquele conteúdo deve ser ignorado do projeto.
@@ -72,6 +72,12 @@ Lista de comandos Git:
 	
 	Rastrear e commitar ao mesmo tempo
 		-	git commit -am "<descrição>"
+		
+	Remover arquivo no diretório
+		-	git rm <nome do arquivo>		#Esse comando além de remover o arquivo indicado, já rastrea do diretório.
+	
+	Renomeando nome do arquivo
+		-	git mv <nome do arquivo> <novo titulo do arquivo>	#Esse comando além de renomear o arquivo indicado, já rastrea do diretório.
 		
 	
 	Atalhos:
