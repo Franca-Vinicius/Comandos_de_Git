@@ -141,5 +141,6 @@ Lista de comandos Git:
 	
 	
 	Atalhos:
+	
 		Ctrl + L 	-	limpar tela 
 	
