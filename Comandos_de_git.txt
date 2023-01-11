@@ -95,7 +95,7 @@ Lista de comandos Git:
 		-	git reset HEAD~1						#Irá desfazer ultimo commit realizado, voltando para area de rastreamento/staged
 		
 	Criand uma Branch								#Branch é uma linha indeoendente de desenvilvimento onde podemos commitar sem afetar
-													#outras Branches.
+											#outras Branches.
 		-	git branch <nome da branch>
 	
 	Listar branches
@@ -114,10 +114,12 @@ Lista de comandos Git:
 		-	git branch -D <nome da branch>
 	
 	Push em uma branch	
-		-	git push origin <nome da branch>				#Certifique-se de estar trabalhando já dentro da nova branch para realizar o commit e o push.
+		-	git push origin <nome da branch>				#Certifique-se de estar trabalhando já dentro da nova branch para realizar o commit e
+											#o push.
 	
 	Mesclar branches
-		-	git branch --no-merged						#Certifique-se de estar em Master, ao realizar o comando, vai mostrar as branches não mescladas.
+		-	git branch --no-merged						#Certifique-se de estar em Master, ao realizar o comando, vai mostrar as branches não
+											#mescladas.
 		-	git merge <nome da branch> -m "<descrição>"			#Lembrando que realiza o merge dos arquivos e conteúdo de cada um deles
 		
 			
