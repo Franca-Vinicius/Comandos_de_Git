@@ -58,7 +58,7 @@ Lista de comandos Git:
 		-	git clone <https do seu repositorio no Github>			#deve ser copiado a URL do repositório no seu Github e colar na linha de comando.
 		
 	Ignorar arquivos dentro de um diretório para depois enviar ao repositório	
-		-	touch .gitignore		#é um ambiente onde todos arquivos que conter dentro serão ignorados no push
+		-	touch .gitignore										#é um ambiente onde todos arquivos que conter dentro serão ignorados no push
 		-	echo "<nome do arquivo para ser ignorado>" >> .gitignore	*estamos encaminhando um arquivo para dentro do .gitignore
 				#o .gitignore será rastreado normalmente para ser incluido no repositório.
 				#o seu conteúdo será incluido junto do .gitignore ao realizar o push, 
