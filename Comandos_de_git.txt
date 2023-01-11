@@ -27,7 +27,7 @@ Lista de comandos Git:
 	Comando para criar .txt					
 		-	touch <nome do arquivo .txt>
 	
-	Ler conteúdo do arquivo					
+	Ler conteúdo do arquivo/pasta					
 		-	cat <nome do arquivo>
 		
 	Adicionar texto dentro do arquivo		
@@ -49,14 +49,20 @@ Lista de comandos Git:
 		-	git log
 		
 	Vinculando repositório Git com Github	
-		-	git remote add oring <https do seu repositório no Github>	*deve ser criado um repositório no Github antes de realizar esse comando.
+		-	git remote add oring <https do seu repositório no Github>	#deve ser criado um repositório no Github antes de realizar esse comando.
 	
 	Enviando arquivos para o Github			
 		-	git push oringin master
 	
 	Baixar/Clonar um repositório para um diretório
-		-	git clone <https do seu repositorio no Github>			*deve ser copiado a URL do repositório no seu Github e colar na linha de comando.
+		-	git clone <https do seu repositorio no Github>			#deve ser copiado a URL do repositório no seu Github e colar na linha de comando.
 		
+	Ignorar arquivos dentro de um diretório para depois enviar ao repositório	
+		-	touch .gitignore		#é um ambiente onde todos arquivos que conter dentro serão ignorados no push
+		-	echo "<nome do arquivo para ser ignorado>" >> .gitignore	*estamos encaminhando um arquivo para dentro do .gitignore
+				#o .gitignore será rastreado normalmente para ser incluido no repositório.
+				#o seu conteúdo será incluido junto do .gitignore ao realizar o push, 
+				#porém ao ler ".gitignore" no repositorio, entendemos que deve ser ignorado do projeto.
 	
 	Atalhos:
 		Ctrl + L 	-	limpar tela 
